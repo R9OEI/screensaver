@@ -28,7 +28,7 @@ public class MainWindow extends JFrame {
 //        leftTextArea.setPreferredSize(new Dimension(300,50));
         container.add(leftTextArea, BorderLayout.WEST);
         container.add(mainScroll, BorderLayout.CENTER);
-for(int i = 0; i < 400; i++){
+for(int i = 0; i < 300; i++){
     mainTextArea.append("Новая строка с номером: " + i + "\n");
 }
         mainTextArea.append("Количество занятых строк " + String.valueOf(mainTextArea.getLineCount()) + "\n");
